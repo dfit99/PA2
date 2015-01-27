@@ -16,3 +16,6 @@ The running time for increasing the set by 100 gets 100x greater, so this algori
 
 Results Analysis:
 The standard deviation of error for the algorithm hovered around 1.0, with a mean error of .02 for a modest sample size. The mean error seems to converge towards 0 as k increases, implying that there is a slight trend towards more accurate guesses than less accurate guesses that is seen at higher test sets. 
+
+A codeclimate analysis could be found here:
+https://codeclimate.com/repos/54c814736956804d690001d6/feed
