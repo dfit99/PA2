@@ -12,7 +12,7 @@ The algorithm employed here is a multi-step algorithm. The steps are as follows:
 
 Time Analysis: 
 The run_test(k) has k default to 150, through multiple code runs, I found this the most optimal running time. At this number the expected running time on my machine (which is of modest build) is around 15 seconds. The time complexity is of O(n^2). 
-The running time for increasing the set by 100 gets 100x greater, so this algorithm poorly scales.
+The running time for increasing the set by 100 gets 1000x greater, so this algorithm poorly scales.
 
 Results Analysis:
 The standard deviation of error for the algorithm hovered around 1.0, with a mean error of .02 for a modest sample size. The mean error seems to converge towards 0 as k increases, implying that there is a slight trend towards more accurate guesses than less accurate guesses that is seen at higher test sets. 
